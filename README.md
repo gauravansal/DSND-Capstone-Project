@@ -57,7 +57,7 @@ For more information about the columns depicted in the files above, one can refe
 ## Instructions<a name="instructions"></a>
 1. Since the data files are not available publicly as dataset are highly proprietary, the Jupyter notebook is just for exploration. An HTML file has been provided as another means to check the notebook.
 
-2. `feature_summary_complete.csv` should be used for data prec-processing.
+2. `feature_summary_complete.csv` should be used for data pre-processing.
 
 3. The Jupyter notebook produced a file called `kaggle_submission_file.csv` which was submitted to Kaggle for the in-class competition.
 
@@ -78,7 +78,7 @@ For more information about the columns depicted in the files above, one can refe
 
  - Since there is a large output class imbalance, predicting individual classes and using accuracy does not seem to be an appropriate performance evaluation method. Instead, the model will be using ROC-AUC to evaluate performance.
 
- - Aside from the Kaggle competition (see section below) using ROC-AUC as the score, the metric is suitable for binary classification problems such as this. ROC curves give us the ability to assess the performance of the classifier over its entire operating range. The most widely-used measure is the area under the curve (AUC). The AUC can be used to compare the performance of two or more classifiers. A single threshold can be selected and the classifiers' performance at that point compared, or the overall performance can be compared by considering the AUC". Compared to the F1 score, the ROC does not require optimizing a threshold for each label.
+ - Aside from the Kaggle competition using ROC-AUC as the score, the metric is suitable for binary classification problems such as this. ROC curves give us the ability to assess the performance of the classifier over its entire operating range. The most widely-used measure is the area under the curve (AUC). The AUC can be used to compare the performance of two or more classifiers. A single threshold can be selected and the classifiers' performance at that point compared, or the overall performance can be compared by considering the AUC". Compared to the F1 score, the ROC does not require optimizing a threshold for each label.
 
 ## Licensing, Authors, and Acknowledgements<a name="licensing"></a>
 

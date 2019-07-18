@@ -26,12 +26,11 @@ The project has three major parts: the customer segmentation report, the supervi
 
 ## Installation<a name="installation"></a>
 
-- The code should run with no issues using Python versions 3.*.
-- No extra besides the built-in libraries from Anaconda needed to run this project
-
-* numpy
-* pandas
-* seaborn
+ - The code should run with no issues using Python versions 3.*.
+ - No extra besides the built-in libraries from Anaconda needed to run this project
+ * numpy
+ * pandas
+ * seaborn
 
 ## File Descriptions<a name="files"></a>
 
@@ -53,7 +52,7 @@ For more information about the columns depicted in the files above, one can refe
 ## Instructions<a name="instructions"></a>
 1. Since the data files are not available publicly as dataset are highly proprietary, the Jupyter notebook is just for exploration. An HTML file has been provided as another means to check the notebook.
 
-2. `feature_summary_complete.csv` should be used for data prec-processing.
+2. `feature_summary_complete.csv` should be used for data pre-processing.
 
 3. The Jupyter notebook produced a file called `kaggle_submission_file.csv` which was submitted to Kaggle for the in-class competition.
 
@@ -65,7 +64,7 @@ For more information about the columns depicted in the files above, one can refe
 
 * Part 2 presented the straightforward way of building a supervised learning model. The base performance of various classifiers was determined. With the help of GridSearchCV the most promising one — GradientBoostingClassifier — was fitted respectively tuned to the training dataset (considering stratified cross-validation) and its performance was evaluated via ROC AUC. A short analysis of the most important features completed the model creation before using it for predicting on the testing dataset which individuals of a marketing campaign are most likely to convert into becoming customers.
 
-* Part 3 presented the Kaggle in-class competition and `kaggle_submission_file.csv` was submitted to obtain a kaggle score which is roc_auc score on the testing data. Through Kaggle score, position of the participant in the leaderboard was determined.
+* Part 3 presented the [Kaggle in-class competition](https://www.kaggle.com/c/udacity-arvato-identify-customers/overview) and `kaggle_submission_file.csv` was submitted to obtain a kaggle score which is roc_auc score on the testing data. Through Kaggle score, position of the participant in the leaderboard was determined.
 
 * [Project Notebook: Create a Customer Segmentation Report for Arvato Financial Solutions](https://nbviewer.jupyter.org/github/gauravansal/DSND-Capstone-Project/blob/master/Arvato%20Project%20Workbook.html)
 * [Blog Post: Identify potential new Customers more efficiently using Machine Learning](https://medium.com/@ansal.gaurav/identify-new-customers-more-efficiently-using-machine-learning-15a10255baf8)

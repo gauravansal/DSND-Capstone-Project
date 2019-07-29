@@ -87,4 +87,4 @@ For more information about the columns depicted in the files above, one can refe
 <a name="acknowledgement"></a>
 ### Acknowledgements
 
-This project was completed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025). The data was originally sourced by Udacity from [Arvato Financial Solutions](https://medium.https://www.arvato.us/), a [Bertelsmann](https://www.bertelsmann.com/#st-1) subsidiary.
+This project was completed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025). The data was originally sourced by Udacity from [Arvato Financial Solutions](https://www.arvato.us/), a [Bertelsmann](https://www.bertelsmann.com/#st-1) subsidiary.

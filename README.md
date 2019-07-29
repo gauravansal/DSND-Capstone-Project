@@ -30,12 +30,10 @@ The project has three major parts: the customer segmentation report, the supervi
 
 ## Installation<a name="installation"></a>
 
-- The code should run with no issues using Python versions 3.*.
-- No extra besides the built-in libraries from Anaconda needed to run this project
-
-* numpy
-* pandas
-* seaborn
+ - The code should run with no issues using Python versions 3.*.
+ - No extra besides the built-in libraries from Anaconda needed to run this project
+ - Data Processing & Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
+ - Data Visualization: Matplotlib, Seaborn
 
 ## File Descriptions<a name="files"></a>
 
@@ -89,4 +87,4 @@ For more information about the columns depicted in the files above, one can refe
 <a name="acknowledgement"></a>
 ### Acknowledgements
 
-This app was completed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025). The data was originally sourced by Udacity from [Arvato Financial Solutions](https://medium.com/r/?url=https%3A%2F%2Fwww.arvato.com%2Fus-en%2Fsolutions%2Ffinancial-solutions.html), a [Bertelsmann](https://medium.com/r/?url=https%3A%2F%2Fwww.bertelsmann.com%2F) subsidiary.
+This project was completed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025). The data was originally sourced by Udacity from [Arvato Financial Solutions](https://medium.https://www.arvato.us/), a [Bertelsmann](https://www.bertelsmann.com/#st-1) subsidiary.
